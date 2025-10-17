@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Indian Book Store</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+
+    body{background:#000;color:#fff;}
+    .navbar-brand,.nav-link{color:#fff !important;}
+    .nav-link:hover{color:#ccc !important;}
+    .card{background:#000;border:1px solid #fff;}
+    .price{color:#fff;}          
+    .old-price{color:#999;text-decoration:line-through;}
+    .btn-primary{background:#000;border:1px solid #fff;}
+    .btn-primary:hover{background:#222;border:1px solid #fff;}
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">BOOKS LELO</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Collections</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">New Arrivals!</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">@999 Deals!</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Combos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Track Your Order</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center">
+          <span class="me-3">👤</span>
+          <span>🛒</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BOOK GRID -->
+  <section class="container py-5">
+    <div class="row row-cols-sm-1 row-cols-sm-2 row-cols-sm-3 row-cols-sm-4 row-cols-sm-5">
+
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="/home/aiktc/Desktop/RAHIL/48laws.png" class="card-img-top" alt="48 Laws of Power">
+          <div class="card-body d-flex flex-column">
+            <h6 class="card-title">THE 48 LAWS OF POWER by ROBERT GREENE</h6>
+            <p class="mt-auto mb-2">
+              <span class="old-price">Rs. 899.00</span><br>
+              <span class="price fw-bold">Rs. 299.00</span>
+            </p>
+            <button class="btn btn-primary w-100">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="/home/aiktc/Desktop/RAHIL/richdad.png" class="card-img-top" alt="Rich Dad Poor Dad">
+          <div class="card-body d-flex flex-column">
+            <h6 class="card-title">RICH DAD POOR DAD By ROBERT KIYOSAKI</h6>
+            <p class="mt-auto mb-2">
+              <span class="old-price">Rs. 499.00</span><br>
+              <span class="price fw-bold">Rs. 199.00</span>
+            </p>
+            <button class="btn btn-primary w-100">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="/home/aiktc/Desktop/RAHIL/thinkingfast.png" class="card-img-top" alt="Thinking Fast and Slow">
+          <div class="card-body d-flex flex-column">
+            <h6 class="card-title">THINKING FAST AND SLOW by DANIEL KAHNEMAN</h6>
+            <p class="mt-auto mb-2">
+              <span class="old-price">Rs. 499.00</span><br>
+              <span class="price fw-bold">Rs. 199.00</span>
+            </p>
+            <button class="btn btn-primary w-100">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="/home/aiktc/Desktop/RAHIL/mountain.png" class="card-img-top" alt="The Mountain Is You">
+          <div class="card-body d-flex flex-column">
+            <h6 class="card-title">THE MOUNTAIN IS YOU by BRIANNA WIEST</h6>
+            <p class="mt-auto mb-2">
+              <span class="old-price">Rs. 599.00</span><br>
+              <span class="price fw-bold">Rs. 169.00</span>
+            </p>
+            <button class="btn btn-primary w-100">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="/home/aiktc/Desktop/RAHIL/talk.png" class="card-img-top" alt="How to Talk to Anyone">
+          <div class="card-body d-flex flex-column">
+            <h6 class="card-title">HOW TO TALK TO ANYONE by LEIL LOWNDES</h6>
+            <p class="mt-auto mb-2">
+              <span class="old-price">Rs. 499.00</span><br>
+              <span class="price fw-bold">Rs. 269.00</span>
+            </p>
+            <button class="btn btn-primary w-100">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bootstrap 5 JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
